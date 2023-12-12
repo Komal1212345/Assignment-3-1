@@ -1,0 +1,155 @@
+/* Apply a box-sizing border-box model to all elements */
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333; /* Set default text color */
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+nav {
+    background-color: #444;
+    color: white;
+    padding: 0.5em;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 10px;
+}
+
+/* Style links within the navigation */
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+section {
+    padding: 20px;
+}
+
+article {
+    margin-bottom: 20px;
+}
+
+/* Style generic button styles */
+button {
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Add a smooth transition */
+}
+
+#map {
+    height: 400px;
+    width: 100%;
+}
+
+
+button:hover {
+    background-color: #555;
+}
+
+/* Responsive styles for smaller screens */
+@media screen and (max-width: 768px) {
+    nav {
+        text-align: center;
+    }
+
+    nav li {
+        display: block;
+        margin: 10px 0;
+    }
+}
+
+/* Grooming Section */
+#grooming {
+    margin-top: 20px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.grooming-item {
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.grooming-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+/* Pets Hotel Section */
+#pets-hotel {
+    margin-top: 20px;
+}
+
+.collapsible-content {
+    display: none;
+    margin-top: 10px;
+}
+
+.collapsible-content p {
+    margin-bottom: 10px;
+}
+
+/* Pet Day Camp Section */
+#pet-day-camp {
+    margin-top: 20px;
+} 
+
+.collapsible-set {
+    margin-top: 10px;
+}
+
+.collapsible-set h3 {
+    cursor: pointer;
+    background-color: #555;
+    color: white;
+    padding: 10px;
+    margin: 0;
+}
+
+.collapsible-set-content {
+    display: none;
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin-top: 10px;
+}
+
+/* Responsive styles for smaller screens */
+@media screen and (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar a {
+        margin: 10px 0;
+    }
+}
